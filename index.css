@@ -1,0 +1,155 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+body{
+	text-align: center;
+}
+
+header {
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	padding-bottom: 30px:
+	border-bottom-style: solid;
+}
+nav p {
+	display: inline-block;
+	color: lightgrey;
+	width: 60%;
+	word-spacing: 20px;
+	height: 52px;
+	vertical-align: top;
+	padding-top:20px;
+	padding-bottom: 100px;
+}
+nav img .logo{
+	display: inline-block;
+	width: 30%;
+	height: 52px;
+	vertical-align: top;
+	padding-bottom: 100px;
+	padding-left: 50px;
+}
+ header h1 {
+	 display: inline-block;
+	 margin-left: 20px;
+	 width: 50%;
+	 height: 250px;
+	 font-size: 100px;
+	 padding-bottom: 50px;
+	 text-align: center;
+	 vertical-align: top;
+ } 
+
+ header img .circle{
+	 display: inline-block;
+	 width: 40%;
+	 height: 300px;
+	 vertical-align: top;
+ }
+
+ header div.button {
+	display:inline-block;
+	height: 50px;
+	width:100px;
+	text-align: center;
+	outline-style: solid;
+	outline-color: black;
+	outline-width: thin;
+	padding-top: 20px;
+	font-size:12px;
+ }
+
+ body div.twoBlock {
+	 display: inline-block;
+	 width: 40%;
+	 height: auto;
+	 padding-top: 100px;
+	 margin: 30px;
+	 border-top-style: solid;
+ } 
+
+ body div.threeBlock {
+	 display: inline-block;
+	 width: 25%;
+	 height: auto;
+	 padding: 30px;v
+ }
+
+ body div.middle-img {
+	 width: 1000px;
+	 height: auto;
+	 
+ } 
+
+ body div.lonelyBlock {
+	 text-align: left;
+	 margin-left: 200px;
+ } 
+
+ footer {
+	 text-align: center;
+ }
